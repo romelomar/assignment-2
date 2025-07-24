@@ -27,10 +27,11 @@
  }
 body{
     
-    width: 1140px;
+    max-width: 1440px;
     height: auto;
     background: var(--bg-color);
-    margin-inline: clamp(1rem, -3.406rem + 17.938vi, 9.375rem); 
+    /* margin-inline: clamp(1rem, -3.4 06rem + 17.938vi, 9.375rem);  */
+    margin: auto;
 }
 
 .white{
@@ -41,6 +42,7 @@ body{
 
 
 .nav-container{
+  margin-inline: 150px;
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
@@ -85,6 +87,7 @@ body{
 
 
 .banner-container{
+  margin-inline: 150px;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -109,10 +112,12 @@ body{
 
 
  .shop-text-container{
+  margin-inline: 150px;
   text-align: center;
   margin-top: 120px;
  }
  .shop-image-container{
+  margin-inline: 150px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px 20px;
@@ -159,6 +164,7 @@ body{
   position: relative;
 }
  .lover-container{
+  margin-inline: 150px;
   display: flex;
   justify-content: space-between;
   gap: 110px;
@@ -204,10 +210,12 @@ body{
 /* latest deal related styles */
 
 .latest-text-container{
+  margin-inline: 150px;
   text-align: center;
 }
 
 .latest-img-container{
+  margin-inline: 150px;
   display: flex;
   margin-bottom: 120px;
 
