@@ -93,7 +93,9 @@ body{
 .banner-head{
   font-size: clamp(1.5rem, 0.152rem + 5.489vi, 4.063rem);
 }
-
+.main-color{
+  color: var(--main-color);
+}
 .banner-descri{
   font-size: clamp(0.875rem, 0.612rem + 1.071vi, 1.375rem);
   color: var(--paragraph-color);
@@ -146,33 +148,53 @@ body{
   color: white;
  }
  /* planet lover related styles */
-
-
-
+.lover-left{
+  position: relative;
+}
+.
+.lover-descri{
+  position: relative;
+}
  .lover-container{
   display: flex;
   justify-content: space-between;
+  gap: 110px;
+  margin-bottom: clamp(8.938rem, 9.595rem + -2.677vi, 7.688rem);
  }
-
+.lover-head{
+  font-size: clamp(1.5rem, 0.645rem + 3.481vi, 3.125rem);
+  font-weight: bold;
+  margin-bottom: clamp(1rem, 0.868rem + 0.535vi, 1.25rem);
+}
+.dot{
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color:var(--paragraph-color)
+  
+ }
+.descri-text{
+  font-size: clamp(0.875rem, 0.612rem + 1.071vi, 1.375rem);
+  color: var(--paragraph-color);
+  margin-bottom: clamp(1rem, 0.868rem + 0.535vi, 1.25rem);
+  font-weight: 400;
+}
 
 .lover-right{
   display: grid;
   place-content: center;
 }
-/* .lover-left{
-  position: relative;
-} */
 
-.lover-img{
-  position:absolute
-}
 .trusted-sellar{
-  position: relative;
-  bottom: 500px;
-  top: 0;
-  right: 0;
-  left: 0;
-
+  width: 286px;
+  height: auto;
+  position: absolute;
+  right: -90px;
+  top: -140px;
+  filter: drop-shadow(-4px 10px 4px  rgba(0, 0, 0, 0.25));
 }
 
 
@@ -190,9 +212,3 @@ body{
 .bloom-1{
   position: relative;
 }
-
-/* .img-1-text ,.img-1-shop{
-  position:absolute;
-  top: 10px;
-  left: 10px;
-} */
