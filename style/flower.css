@@ -12,7 +12,7 @@
  *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     outline: none;
   
  }
@@ -39,6 +39,8 @@ body{
 .nav-container{
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
 }
 .nav-left{
   width: 135px;
@@ -52,6 +54,16 @@ body{
 .nav-list{
   display: flex;
   gap: 48px;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+
+.nav-color{
+  color: var(--nav-color);
+  font-size: 1rem;
+  font-weight: 400;
+
 }
 .cart-icon{
   margin-right: 11px;
@@ -71,26 +83,68 @@ body{
 .banner-container{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
+  margin-top: 226px;
 }
 .banner-left{
   max-width: 570px;
 }
 
+.banner-head{
+  font-size: clamp(1.5rem, 0.152rem + 5.489vi, 4.063rem);
+}
 
+.banner-descri{
+  font-size: clamp(0.875rem, 0.612rem + 1.071vi, 1.375rem);
+  color: var(--paragraph-color);
+}
 /* main section related styles */
 
 
 
  .shop-text-container{
   text-align: center;
+  margin-top: 120px;
  }
  .shop-image-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 30px 20px;
+  margin-bottom: 222px;
  }
 
+ .shop-head{
+  font-size: clamp(1.5rem, 0.645rem + 3.481vi, 3.125rem);
+  font-weight: bold;
+ }
+
+ .shop-descri{
+  font-size: clamp(0.875rem, 0.612rem + 1.071vi, 1.375rem);
+  color: var(--paragraph-color);
+  margin: 16px 0 49px 0;
+ }
+ .img-card{
+  text-align: center;
+ }
+.name{
+  font-size: clamp(1rem, 0.803rem + 0.803vi, 1.375rem);
+  margin: 30px 0 20px 0;
+  font-weight: 500;
+}
+
+.price{
+  font-size: lamp(1rem, 0.803rem + 0.803vi, 1.375rem);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+ .cart-btn{
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  padding: 19px 80px;
+  background-color: var(--main-color);
+  color: white;
+ }
  /* planet lover related styles */
 
 
@@ -101,7 +155,44 @@ body{
  }
 
 
+.lover-right{
+  display: grid;
+  place-content: center;
+}
+/* .lover-left{
+  position: relative;
+} */
+
+.lover-img{
+  position:absolute
+}
+.trusted-sellar{
+  position: relative;
+  bottom: 500px;
+  top: 0;
+  right: 0;
+  left: 0;
+
+}
+
+
 /* latest deal related styles */
+
+
 .latest-text-container{
   text-align: center;
 }
+
+.latest-img-container{
+  display: flex;
+}
+
+.bloom-1{
+  position: relative;
+}
+
+/* .img-1-text ,.img-1-shop{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+} */
