@@ -26,12 +26,16 @@
     --nav-color: #8987A1;
  }
 body{
-    max-width: 1140px;
+    
+    width: 1140px;
+    height: auto;
     background: var(--bg-color);
     margin-inline: clamp(1rem, -3.406rem + 17.938vi, 9.375rem); 
 }
 
-
+.white{
+  color: white;
+}
 
 /* navbar related styles */
 
@@ -151,7 +155,6 @@ body{
 .lover-left{
   position: relative;
 }
-.
 .lover-descri{
   position: relative;
 }
@@ -200,15 +203,96 @@ body{
 
 /* latest deal related styles */
 
-
 .latest-text-container{
   text-align: center;
 }
 
 .latest-img-container{
   display: flex;
+  margin-bottom: 120px;
+
+}
+.latest-head{
+  font-size: clamp(1.5rem, 0.645rem + 3.481vi, 3.125rem);
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.latest-descri{
+  font-size: clamp(0.875rem, 0.612rem + 1.071vi, 1.375rem);
+  color: var(--paragraph-color);
+  margin-bottom: clamp(3.25rem, 1.014rem + 9.103vi, 7.5rem);
+
 }
 
 .bloom-1{
+  border-radius: 14px;
   position: relative;
+  
+}
+
+.text-on-img-1{
+  position: relative;
+  top: -120px;
+  left: 90px;
+}
+.img-1-text{
+  font-size: 20px;
+  font-weight: bold;
+}
+.img-1-shop{
+  position: absolute;
+  font-size: 14px;
+  left: 50px;
+  font-weight: 600;
+}
+.ana-2{
+  border-radius: 14px;
+  position: relative;
+
+}
+.text-on-img-2{
+  position: relative;
+  top: -120px;
+  left: 90px;
+}
+
+.img-2-text{
+  font-size: 20px;
+}
+
+.img-2-shop{
+  position: absolute;
+  font-size: 14px;
+  left: 50px;
+  font-weight: 600;
+
+}
+.zabo-3{
+  border-radius: 22px;
+  position: relative;
+  margin-left: 28px;
+}
+.text-on-img-3{
+  position: relative;
+  top: -240px;
+  left: 220px;
+}
+
+.img-3-text{
+  font-size: clamp(1.25rem, 0.592rem + 2.677vi, 2.5rem);
+  font-weight: bold;
+}
+
+.img-3-shop{
+  position: absolute;
+  font-size: 28px;
+  left: 130px;
+  font-weight: 600;
+}
+
+
+/* subscribe related styles */
+.subscribe-head{
+  font-size: clamp(1.25rem, 0.264rem + 4.016vi, 3.125rem);
+  font-weight: bold;
 }
