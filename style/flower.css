@@ -26,13 +26,13 @@
     --nav-color: #8987A1;
  }
 body{
-    
-    max-width: 1440px;
-    height: auto;
+    width: 1440px;
+    /* height: auto; */
     background: var(--bg-color);
     /* margin-inline: clamp(1rem, -3.4 06rem + 17.938vi, 9.375rem);  */
-    margin: auto;
+    margin: 0 auto;
 }
+
 
 .white{
   color: white;
@@ -48,10 +48,10 @@ body{
   margin-top: 30px;
   align-items: center;
 }
-.nav-left{
+/* .nav-left{
   width: 135px;
   height: 82px;
-}
+} */
 .nav-left .nav-logo{
   width: 100%;
   height: 100%;
@@ -59,6 +59,7 @@ body{
 
 .nav-list{
   display: flex;
+  justify-content: space-between;
   gap: 48px;
   font-size: 1rem;
   font-weight: bold;
@@ -300,7 +301,122 @@ body{
 
 
 /* subscribe related styles */
-.subscribe-head{
-  font-size: clamp(1.25rem, 0.264rem + 4.016vi, 3.125rem);
-  font-weight: bold;
+
+
+
+.subscribe-container{
+  position: relative;
 }
+.subscribe-head{
+  position: relative;
+  top: -330px;
+  left: 420px;
+  font-size: clamp(1.25rem, 0.264rem + 4.016vi, 3.125rem);
+  color: white;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.email{
+  width:644px;
+  height: 50px;
+  border: none;
+  color: var(--paragraph-color);
+  padding-left: 20px;
+  font-size: 16px;
+}
+.subscribe-input{
+  position: relative;
+  top: -330px;
+  left: 330px;
+}
+.subscribe-btn{
+  position: absolute;
+  width: 186px;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: var(--main-color);
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+/* footer related styles */
+ /* footer{
+  width: 100%;
+ } */
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-img{
+  margin-bottom: 16px;
+}
+.footer-descri{
+  font-size: clamp(1rem, 0.859rem + 0.573vi, 1.375rem);
+  color: var(--paragraph-color);
+  line-height: 27px;
+}
+
+.footer-option{
+  margin-bottom: 32px;
+  list-style: none;
+  text-decoration: none;
+  color: var(--footer-text-color);
+}
+
+.footer-middle{
+  display: flex;
+  gap: 111px;
+}
+
+
+.handle{
+  margin-right: 24px;
+}
+
+.twitter{
+  position: relative;
+  top: -7px;
+}
+
+
+/* small responsive layout */
+
+
+@media (max-width:400px) {
+ .nav-list li {
+  display: none;
+}
+
+.nav-list li:last-child {
+  display: inline-block;
+}
+.shop-image-container{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.trusted-sellar{
+  display: none;
+}
+.lover-container{
+  flex-direction: column;
+}
+
+.latest-img-container{
+  flex-direction: column;
+}
+
+.subscribe-img{
+  display: none;
+}
+
+
+
+
+
+
+  }
