@@ -27,9 +27,7 @@
  }
 body{
     width: 1440px;
-    /* height: auto; */
     background: var(--bg-color);
-    /* margin-inline: clamp(1rem, -3.4 06rem + 17.938vi, 9.375rem);  */
     margin: 0 auto;
 }
 
@@ -48,10 +46,8 @@ body{
   margin-top: 30px;
   align-items: center;
 }
-/* .nav-left{
-  width: 135px;
-  height: 82px;
-} */
+
+
 .nav-left .nav-logo{
   width: 100%;
   height: 100%;
@@ -108,6 +104,9 @@ body{
   font-size: clamp(0.875rem, 0.612rem + 1.071vi, 1.375rem);
   color: var(--paragraph-color);
 }
+
+
+
 /* main section related styles */
 
 
@@ -157,7 +156,14 @@ body{
   background-color: var(--main-color);
   color: white;
  }
+
+
+
  /* planet lover related styles */
+
+
+
+
 .lover-left{
   position: relative;
 }
@@ -344,10 +350,6 @@ body{
   
 }
 
-/* footer related styles */
- /* footer{
-  width: 100%;
- } */
 
 .footer-container{
   display: flex;
@@ -434,10 +436,6 @@ body {
   margin-bottom: 13px;
 }
 
-/* 
-.banner-left {
- max-width: 100%;
-} */
 
 .banner-img {
  max-width: 100%;
@@ -574,8 +572,7 @@ body {
 .footer-container {
   flex-direction: column;
   width: 321px;
-  /* align-items: center; */
-  /* gap: 20px; */
+
   padding-inline:  16px;
 }
 
