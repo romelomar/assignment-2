@@ -283,7 +283,7 @@ body{
   margin-left: 28px;
 }
 .text-on-img-3{
-  /* position: relative; */
+  position: relative;
   width: 440px;
   top: -240px;
   left: 220px;
