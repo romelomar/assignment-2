@@ -229,6 +229,7 @@ body{
 .latest-descri{
   font-size: clamp(0.875rem, 0.612rem + 1.071vi, 1.375rem);
   color: var(--paragraph-color);
+  margin-inline: 140px;
   margin-bottom: clamp(3.25rem, 1.014rem + 9.103vi, 7.5rem);
 
 }
@@ -388,35 +389,214 @@ body{
 
 
 @media (max-width:400px) {
- .nav-list li {
-  display: none;
+
+ /* Body */
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
+ /* Navbar */
+.nav-container {
+  margin: 15px;
+  align-items: center;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+.nav-list li {
+  display: none;
+}
 .nav-list li:last-child {
   display: inline-block;
 }
-.shop-image-container{
-  grid-template-columns: repeat(2, 1fr);
+
+ /* Banner */
+.banner-container {
+  margin-inline: 15px;
+  margin-top: 28px;
+  flex-direction: column-reverse;
+  flex: reverse;
+  align-items: center;
+  gap: 20px;
+    
+  }
+.banner-head{
+  font-weight: bold;
+  margin-bottom: 13px;
 }
 
+/* 
+.banner-left {
+ max-width: 100%;
+} */
+
+.banner-img {
+ max-width: 100%;
+}
+
+
+/* Shop Section */
+.shop-text-container {
+  margin-inline: 30px;
+  margin-top: 65px;
+  text-align: center;
+}
+.shop-descri{
+  margin-bottom: 28px;
+}
+
+.cart-btn {
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+.shop-image-container{
+  margin-inline: 15px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.flower-img{
+  width: 100%;
+}
+
+/* Lover Section */
+.lover-container {
+  margin-inline:15px;
+  flex-direction: column;
+  gap: 18px; 
+}
+.lover-img{
+  width: 100%;
+}
+.lover-descri{
+  font-size: 14px;
+}
 .trusted-sellar{
   display: none;
 }
-.lover-container{
-  flex-direction: column;
+
+
+/* Latest Section */
+.latest-text-container {
+  margin-inline: 28px;
+  text-align: center;
 }
-
-.latest-img-container{
-  flex-direction: column;
+.latest-descri{
+  margin-inline: 5px;
 }
-
-.subscribe-img{
-  display: none;
-}
-
-
-
-
-
-
+  .latest-img-container {
+    flex-direction: column;
+    gap: 20px;
+    margin-inline: 16px;
   }
+
+  .bloom-1,
+  .ana-2,
+  .zabo-3{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Subscribe Section */
+  .subscribe-container {
+    margin-inline: 10px;
+    text-align: center;
+  }
+
+  .subscribe-head {
+    position: static;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-input {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .email {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .subscribe-btn {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .subscribe-img {
+    display: none;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 20px; */
+    padding: 50px 16px;
+  }
+
+  .footer-middle {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-option {
+    font-size: 14px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
